@@ -43,7 +43,7 @@ else{
     const drawer = (
         <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
             <Typography variant="h6" sx={{ my: 2 }}>
-              BLOG NEST
+              B 4 BLOG
             </Typography>
             <Divider />
             <List>
@@ -89,7 +89,7 @@ else{
                         onClick={()=> navigator("/home")}
                         sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
                     >
-                     <span id="app-bar-logo">Blog Nest</span>
+                     <span id="app-bar-logo">B 4 Blog</span>
                     </Typography>
                     <Box sx={{ display: { xs: 'none', sm: 'block' }, color:"white" }}>
                         {navItems.map((item) => (
@@ -130,14 +130,3 @@ else{
 
 
 export default DrawerAppBar;
-
-
-
-// const Header = ()=>{
-
-//     return(
-//         <div>hello from header</div>
-//     )
-// }
-
-// export default Header;

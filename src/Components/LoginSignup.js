@@ -231,7 +231,7 @@ function LoginSignup() {
 
                 </Button>
 
-                <p className="app-st">New to BlogNest ? <b onClick={() => { setFlag(false) }} style={
+                <p className="app-st">New to B4Blog ? <b onClick={() => { setFlag(false) }} style={
                     {
                         cursor: "pointer",
                     }
