@@ -6,17 +6,12 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import { useNavigate } from 'react-router-dom';
-import { FacebookShareButton, FacebookIcon } from 'react-share';
-
-
-
 
 export default function PostCard({post}) {
   const navigate=  useNavigate();
 
   const username = localStorage.getItem('username');
   
-
   return (
     <Card className='post-card' sx={{ maxWidth: 345 }}>
       <CardMedia
@@ -44,18 +39,10 @@ export default function PostCard({post}) {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">Share</Button>
         <Button size="small" onClick={()=>{
          navigate(`/blog/${post._id}`)
         }}>Read More</Button>
         <div>
-      {/* <FacebookShareButton
-        url={`/blog/${post._id}`}
-        quote={post.title}
-        
-      >
-        <FacebookIcon size={32} round />
-      </FacebookShareButton> */}
     </div>
     </CardActions>
     </Card>
