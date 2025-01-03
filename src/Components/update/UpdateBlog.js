@@ -178,7 +178,7 @@ const UpdatePost = (props) => {
                         <MenuItem value="Movies">Movies</MenuItem>
                         <MenuItem value="Sports">Sports</MenuItem>
                         <MenuItem value="Technology">Technology</MenuItem>
-                        <MenuItem value="Fashion">Fashion</MenuItem>
+                        <MenuItem value="Games">Games</MenuItem>
                     </Select>
                 </FormControl>
                 <Button className="create-blog-btn" onClick={updatePost} variant="contained">Update</Button>
